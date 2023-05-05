@@ -34,11 +34,11 @@ function Home(){
                 <Card.Img variant="top" src={dataA} />
               <Card.Header as="h5">Data Analysis</Card.Header>
               <Card.Body>
-                <Card.Text>I have extensive experience in working with relational databased using MySQL for 
+                <Card.Text>I have extensive experience in working with Graph databases like Neo4j with cypher, along with relational databases such as SQL for 
                                 both data retrieval and data analysis. I am extremely familiar with using packages such as 
-                                sqllite3 to implement queries in Python, along with analyzing large data with Python packages such as 
+                                sqllite3 and sqlalchemy to implement queries in Python, along with analyzing large data with Python packages such as 
                                 Pandas, numPy and R packages such as ggplot2. I also have significant exposure to using both machine learning 
-                                and deep learning for data analysis using Scikit-learn and GNINA.
+                                and deep learning for data analysis using Scikit-learn, PyTorch, Tensorflow and GNINA.
                                 My minor in Applied Statistics has given me ample knowledge in high level statistics, including 
                                 linear regression, catagorical data analysis, nonparametric statistics, and applied sampling. I 
                                 have experience using all of these tools using R, Python, Minitab, and Microsoft Excell.</Card.Text>
@@ -70,7 +70,7 @@ function Home(){
                                 handle all shell related operations. I have also used Git, Jupyter, and Visual Studio Online to collaberate,
                                 share, and deploy my software related applications.
                                 In my own personal time I learned how to write HTML, CSS, and Javascript both from 
-                                scratch along with utilizing Bootstrap. I have also used Django to create multiple websites including this one 
+                                scratch along with utilizing Bootstrap. I have also used Django,REST,and React to create multiple websites including this one 
                                 completley independently, developing web applications that feature user profiles with username and passwords with a password recovery system,
                                 user blog posts displayed in a feed based on its category with a working comment feature, and several other basic features for a blog style social media 
                                 web application.</Card.Text>
