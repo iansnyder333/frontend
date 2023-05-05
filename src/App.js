@@ -21,6 +21,7 @@ function App() {
         <NavBarBasic />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/frontend" element={<Home />} />
           <Route path="/projects" element={<ProjectsList />} />
           <Route path="/todos" element={<ToDoList />} />
         </Routes>
