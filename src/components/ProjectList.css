@@ -1,0 +1,34 @@
+.project-card {
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+.skill-badge {
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+.skill-badge-blue {
+    background-color: #007bff;
+    color: white;
+}
+
+.skill-badge-green {
+    background-color: #28a745;
+    color: white;
+}
+
+.skill-badge-orange {
+    background-color: #fd7e14;
+    color: white;
+}
+
+.skill-badge-red {
+    background-color: #dc3545;
+    color: white;
+}
