@@ -1,0 +1,46 @@
+.carousel {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.carousel-image {
+    height: auto;
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.carousel-caption h3 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.carousel-caption p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+.carousel-indicators {
+    position: absolute;
+    bottom: -30px;
+}
+
+.carousel-indicators li {
+    background-color: #ccc;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin: 0 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-indicators .active {
+    background-color: #000000;
+}
