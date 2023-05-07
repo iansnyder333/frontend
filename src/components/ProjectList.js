@@ -86,7 +86,158 @@ function ProjectsList() {
     
       <h1 className="text-black text-uppercase text-center my-4">Full Portfolio</h1>
       <div className="row">
-         <div className="col-md-4 mb-4">
+        <div className="col-md-4 mb-4">
+            <Card className="project-card h-100">
+              <Card.Header as="h5">My Portfolio Website</Card.Header>
+              <Card.Body>
+                <Card.Text>
+                  <li>Successfully developed and deployed a comprehensive portfolio website that showcases my technical expertise and creativity.</li>
+                  <li>Implemented Django RESTful API for efficient back-end management, ensuring fast, reliable, and scalable web services.</li>
+                  <li>Utilized React for front-end development, leveraging its component-based architecture for improved maintainability and an enhanced user experience.</li>
+                  <li>Deployed the website on AWS, optimizing cloud-based hosting for superior performance, flexibility, and cost-efficiency.</li>
+                  <li>Integrated responsive web design to ensure optimal display and usability across various devices and screen sizes.</li>
+                </Card.Text>
+              
+                  <Badge pill bg="danger" className="me-2">
+                    Python
+                  </Badge>
+                  <Badge pill bg="danger" className="me-2">
+                    Javascript
+                  </Badge>
+                  <Badge pill bg="danger" className="me-2">
+                    HTML
+                  </Badge>
+                  <Badge pill bg="danger" className="me-2">
+                    CSS
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Django
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    REST API
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    React
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Bootstrap
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    AWS
+                  </Badge>
+              </Card.Body>
+              <Button variant="outline-primary" href='https://iansnyder333.github.io/frontend/'>Source Code</Button>
+            </Card>
+          </div>
+          <div className="col-md-4 mb-4">
+            <Card className="project-card h-100">
+              <Card.Header as="h5">Snake Game Intelligent Agent</Card.Header>
+              <Card.Body>
+                <Card.Text>
+                  <li>Engineered an advanced Snake Game Application utilizing Pygame, featuring a sophisticated Intelligent Agent powered by Deep Q-Learning through the PyTorch framework. </li>
+                  <li>Crafted an engaging and interactive experience for users, offering multiple difficulty levels, AI gameplay demonstrations, and the opportunity to train and visualize their own models, enhancing user engagement and understanding.</li>
+                  <li>Seamlessly integrated the application's full suite of features within an intuitive, custom-built GUI, ensuring effortless accessibility and an exceptional user experience for clients</li>                </Card.Text>
+              
+                  <Badge pill bg="danger" className="me-2">
+                    Python
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    PyTorch
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    PyGame
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    GUI
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Object Oriented Programming
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Machine Learning
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Neural Networks
+                  </Badge>
+              </Card.Body>
+              <Button variant="outline-primary" href='https://github.com/iansnyder333/ai-game'>Source Code</Button>
+            </Card>
+          </div>
+          <div className="col-md-4 mb-4">
+            <Card className="project-card h-100">
+              <Card.Header as="h5">Drug Design Machine Learning Research</Card.Header>
+              <Card.Body>
+                <Card.Text>
+                  <li>Employed Tensorflow and GNINA open-source frameworks to develop advanced deep learning structure-based drug design techniques, resulting in the fine-tuning and optimization of state-of-the-art convolutional neural network models for accurately predicting low RMSD poses.</li>
+                  <li>Conducted comprehensive research to validate the superior efficacy of deep learning models by strategically training an ensemble of models, demonstrating a scalable performance boost with up to ~20 models</li>
+                </Card.Text>
+              
+                  <Badge pill bg="danger" className="me-2">
+                    Python
+                  </Badge>
+                  <Badge pill bg="danger" className="me-2">
+                    R
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Tensorflow
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    GNINA
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Machine Learning
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Convolutional Neural Network
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Drug Design
+                  </Badge>
+              </Card.Body>
+              <Button variant="outline-primary" href='https://pubs.acs.org/doi/10.1021/acs.jcim.0c00411'>Publication</Button>
+            </Card>
+          </div>
+            <div className="col-md-4 mb-4">
+            <Card className="project-card h-100">
+              <Card.Header as="h5">Bike Rental Analysis</Card.Header>
+              <Card.Body>
+                <Card.Text>
+                  <li>Developed a Python Jupyter notebook and a Python script to analyze and visualize historical bike rental data from HealthyRidePGH in 2021.</li>
+                  <li>Utilized Python, Pandas, NumPy, Scikit-learn, and Matplotlib to process, analyze, and visualize data for a comprehensive understanding of bike rental trends and challenges.</li>
+                  <li>Generated visualizations to showcase the popularity of different rental stations, incorporating filter conditions for tailored analysis.</li>
+                  <li>Identified and visualized rebalancing issues through data-driven graphs, highlighting areas for improvement in bike availability management.</li>
+                  <li>Applied a variety of clustering algorithms using Scikit-learn to group similar stations together, uncovering patterns and relationships among rental stations.</li>
+                </Card.Text>
+              
+                  <Badge pill bg="danger" className="me-2">
+                    Python
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Pandas
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Real World Data Analysis
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Scikit-Learn
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Statistical Analysis
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Machine Learning
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Matplotlib
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Seaborne
+                  </Badge>
+              </Card.Body>
+              <Button variant="outline-primary" href='https://github.com/iansnyder333/Bike_Analysis'>Source Code</Button>
+            </Card>
+          </div>
+            <div className="col-md-4 mb-4">
             <Card className="project-card h-100">
               <Card.Header as="h5">Clinical Cancer Genomics Data Analysis</Card.Header>
               <Card.Body>
