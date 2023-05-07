@@ -361,6 +361,39 @@ function ProjectsList() {
           </div>
           <div className="col-md-4 mb-4">
             <Card className="project-card h-100">
+              <Card.Header as="h5">Java Autocompleting Engine</Card.Header>
+              <Card.Body>
+                <Card.Text>
+                  <li>An implemented engine to try to guess what word a user wishes to type before they are finished.</li>
+                  <li>Utilizes extensive search engines and symbol tables.</li>
+                  <li>Custom Trie Data Structure employed to store dictionary with minimal memory while still maintaining fast retrieval.</li>
+                  <li>Project is build from scratch without the help of JCL classes</li>
+                  </Card.Text>
+              
+                  <Badge pill bg="danger" className="me-2">
+                    Java
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Search Engine
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Symbol Table
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    API
+                  </Badge>
+                   <Badge pill bg="info" className="me-2">
+                    Data Structures
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Algorithims
+                  </Badge>
+              </Card.Body>
+              <Button variant="outline-primary" href='https://github.com/iansnyder333/Autocompleter'>Source Code</Button>
+            </Card>
+          </div>
+          <div className="col-md-4 mb-4">
+            <Card className="project-card h-100">
               <Card.Header as="h5">Client Car Buying Tool</Card.Header>
               <Card.Body>
                 <Card.Text>
