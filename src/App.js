@@ -7,7 +7,8 @@ import ProjectsList from './components/ProjectList';
 import NavBarBasic from './components/NavBarBasic';
 
 import Home from './components/Home';
-import ToDoList from './components/ToDoList'
+import ToDoList from './components/ToDoList';
+import Footer from './components/Footer';
 function App() {
 
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/projects" element={<ProjectsList />} />
           <Route path="/todos" element={<ToDoList />} />
         </Routes>
+        <Footer />
       </main>
     </Router>
     );
