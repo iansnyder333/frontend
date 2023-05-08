@@ -361,7 +361,7 @@ function ProjectsList() {
           </div>
           <div className="col-md-4 mb-4">
             <Card className="project-card h-100">
-              <Card.Header as="h5">Java Autocompleting Engine</Card.Header>
+              <Card.Header as="h5">Java Autocomplete Engine</Card.Header>
               <Card.Body>
                 <Card.Text>
                   <li>An implemented engine to try to guess what word a user wishes to type before they are finished.</li>
