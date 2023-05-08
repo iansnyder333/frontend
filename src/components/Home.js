@@ -56,13 +56,15 @@ function Home(){
                 <Card.Img variant="top" src={softA} />
               <Card.Header as="h5">Software Development</Card.Header>
               <Card.Body>
-                <Card.Text>My University studies as an undergraduate has given me extensive exposure to 
-                                object-oriented programming in Python and Java; both in algorithms and data structures.
-                                Some of my projects include: creating an autocomplete engine based on current user character stream
-                                that recommends words based on user history, designing a data crawler to return relevant cars for 
-                                sale based on filters specified by the user, creating a network analysis to find optimal paths between access
-                                points in a network based on cable type along with adding,updating,and deleting access points from previous 
-                                network. All these projects were done from scratch without any JCL classes and are on my github. </Card.Text>
+                <Card.Text>My University studies have given me extensive exposure to the end to end software development process.
+                   Many of my assigned projects were open ended, requiring me to analyze and determine the correct architecture for
+                    development. I can then confidently program a solution using Python, Java, C++, or Javascript depending on the nature
+                     of the problem. Since Java was the first language I learned, I naturally solve problems in an object-oriented
+                      environment, and understand the importance of developing scalable and reusable code. In my high level CS course
+                       projects, it was very often for no test cases or files to be provided, which required me to learn how to develop
+                        adequate testing before deploying my programs. Many of these projects are available in the portfolio section 
+                        of my website, which I am consistently updating as I continue progressing as a software developer! 
+                                </Card.Text>
               </Card.Body>
             </Card>
           </div>
@@ -71,14 +73,15 @@ function Home(){
                 <Card.Img variant="top" src={otherA} />
               <Card.Header as="h5">Other Developer Tools</Card.Header>
               <Card.Body>
-                <Card.Text>In all four years of undergraduate, I have used BASH commands in a UNIX environment to 
-                                handle all shell related operations. I have also used Git, Jupyter, and Visual Studio Online to collaborate,
-                                share, and deploy my software related applications.
-                                In my own personal time I learned how to write HTML, CSS, and Javascript both from 
-                                scratch along with utilizing Bootstrap. I have also used Django,REST,and React to create multiple websites including this one 
-                                completely independently, developing web applications that feature user profiles with username and passwords with a password recovery system,
-                                user blog posts displayed in a feed based on its category with a working comment feature, and several other basic features for a blog style social media 
-                                web application.</Card.Text>
+                <Card.Text>Throughout my studies, I have learned many different tools and frameworks to improve upon my skills.
+                   I have always developed in a Unix environment, and have experience with shell scripting using Bash.
+                    I use tools such as Git, Jupyter Notebooks, and VScode to aid in my deployment and collaboration.
+                     As someone who was always interested in web development, I have taken it upon myself to learn Django 
+                     for backend development, and React front end. I have learned to implement both together using Restful
+                      apis to create scalable and high performance websites such as this one. I have also used AWS and Docker 
+                      to help me develop and deploy applications in an efficient and highly controllable manner. I greatly enjoy 
+                      styling websites using Javascript, HTML, CSS, and bootstrap libraries to create visually appealing web pages 
+                      and am constantly keeping up to date with new technologies to learn that can help me as a developer.</Card.Text>
               </Card.Body>
             </Card>
           </div>
