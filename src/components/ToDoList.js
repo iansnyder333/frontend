@@ -130,8 +130,8 @@ class ToDoList extends Component{
     return(
     <div>
         <h1 className="text-black text-uppercase text-center my-4">Task Managment App</h1>
-         <h2 className="text-black text-uppercase text-center my-4">Unfortunatley allowing public access to this feature exceeds my AWS 
-         budget so it is currently disabled. Thank you for understanding</h2>
+         <h4 className="text-black text-center my-4">Unfortunatley allowing public access to this feature exceeds my AWS 
+         budget so it is currently disabled. Thank you for understanding</h4>
         <div className="row">
           <div className="col-md-6 col-sm-10 mx-auto p-0">
             <div className="card p-3">
