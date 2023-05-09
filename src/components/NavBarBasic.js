@@ -6,16 +6,16 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
 function NavBarBasic() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" >
+    <Navbar collapseOnSelect bg="dark" variant="dark" expand="lg" >
       <Container>
         <Navbar.Brand href="https://iansnyder333.github.io/frontend/">Ian Snyder</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="container-fluid">
             <Link className="nav-link" to="/">Home</Link>
             <Link className="nav-link" to="/projects">Portfolio</Link>
             <Link className="nav-link" to="/todos">ToDo</Link>
-            <NavDropdown title="Contact Me" id="basic-nav-dropdown">
+            <NavDropdown className="ml-auto" title="Contact Me" id="basic-nav-dropdown">
               <NavDropdown.Item href="https://www.linkedin.com/in/ian-snyder-aa1600182/">Linkedin</NavDropdown.Item>
               <NavDropdown.Item href="https://github.com/iansnyder333">
                 Github
@@ -24,6 +24,9 @@ function NavBarBasic() {
               <NavDropdown.Divider />
               <a class="dropdown-item" href="mailto: idsnyder136@gmail.com">Email</a>
             </NavDropdown>
+
+
+            
           </Nav>
         </Navbar.Collapse>
       </Container>

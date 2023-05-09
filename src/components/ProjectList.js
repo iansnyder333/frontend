@@ -32,7 +32,7 @@ function ProjectsList() {
 
   return (
     <div className="container">
-      <h1 className="text-black text-uppercase text-center my-4">Featured Projects</h1>
+      <h1 className="text-black text-center my-4">Featured</h1>
         <Carousel activeIndex={activeIndex} onSelect={handleSelect} indicators={false} fade>
         <Carousel.Item>
           <img className="d-block w-100 carousel-image" src={slide1} alt="First slide" />
@@ -84,7 +84,7 @@ function ProjectsList() {
 
     
     
-      <h1 className="text-black text-uppercase text-center my-4">Full Portfolio</h1>
+      <h1 className="text-black text-center my-4">Full Portfolio</h1>
       <div className="row">
         <div className="col-md-4 mb-4">
             <Card className="project-card h-100">

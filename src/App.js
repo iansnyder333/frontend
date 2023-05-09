@@ -1,7 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Modal from "./components/Modal";
-import axios from "axios";
+
 import ProjectsList from './components/ProjectList';
 
 import NavBarBasic from './components/NavBarBasic';
