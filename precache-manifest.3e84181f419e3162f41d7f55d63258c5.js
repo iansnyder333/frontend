@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "78c4889673415172b08d",
+    "revision": "91115a69867a7095d0e9",
     "url": "/frontend/static/css/main.1b94df52.chunk.css"
   },
   {
-    "revision": "78c4889673415172b08d",
-    "url": "/frontend/static/js/main.78c48896.chunk.js"
+    "revision": "91115a69867a7095d0e9",
+    "url": "/frontend/static/js/main.91115a69.chunk.js"
   },
   {
     "revision": "03628066470ce55ea2f4",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/frontend/static/media/PittFball.ae0fce0b.jpg"
   },
   {
-    "revision": "1c999a6ebe2e807ebd1e5462d3c790e7",
+    "revision": "4782614ec894416c770fe10e9c334e24",
     "url": "/frontend/index.html"
   }
 ];
