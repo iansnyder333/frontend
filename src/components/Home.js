@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import "./Home.css";
 import Card from "react-bootstrap/Card";
 import Carousel from 'react-bootstrap/Carousel';
-
+import resume from "./Files/IanSnyderResumecopy.pdf";
+import Button from 'react-bootstrap/Button';
 function Home(){
     const headshot = require('./static/Snyder_Ian-42431CC.jpg'); 
     const family = require('./static/IMG_4828.jpeg');
@@ -29,7 +30,9 @@ function Home(){
             Bachelors of Science in Computational Biology and a minor in Applied
             Statistics. Through my studies I have developed a passion for programming
             and data analysis. Upon graduating I aspire to become a Software Engineer or a Data Engineer!
+            
           </p>
+          <Button variant="outline-primary" href={resume} download="IanSnyderResumecopy.pdf">Download My Resume</Button>
         </div>
       </div>
       <div>
