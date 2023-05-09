@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "6ec8aaf7d658f4e6561c",
-    "url": "/frontend/static/css/main.dc8290e3.chunk.css"
+    "revision": "2c1ee01c5394fafb9564",
+    "url": "/frontend/static/css/main.1bbb6183.chunk.css"
   },
   {
-    "revision": "6ec8aaf7d658f4e6561c",
-    "url": "/frontend/static/js/main.6ec8aaf7.chunk.js"
+    "revision": "2c1ee01c5394fafb9564",
+    "url": "/frontend/static/js/main.2c1ee01c.chunk.js"
   },
   {
-    "revision": "c0b39c745a467a1bddfe",
-    "url": "/frontend/static/js/1.c0b39c74.chunk.js"
+    "revision": "6fec053d32be9f449c44",
+    "url": "/frontend/static/js/1.6fec053d.chunk.js"
   },
   {
-    "revision": "2b9344a7bbecd973c3df",
-    "url": "/frontend/static/css/2.394e7a33.chunk.css"
+    "revision": "e723bd261fc39c144cc6",
+    "url": "/frontend/static/css/2.ebbc9229.chunk.css"
   },
   {
-    "revision": "2b9344a7bbecd973c3df",
-    "url": "/frontend/static/js/2.2b9344a7.chunk.js"
+    "revision": "e723bd261fc39c144cc6",
+    "url": "/frontend/static/js/2.e723bd26.chunk.js"
   },
   {
-    "revision": "81dac1e57a953d93f9fc",
-    "url": "/frontend/static/js/runtime~main.81dac1e5.js"
+    "revision": "b2e4b6f56786ea34a715",
+    "url": "/frontend/static/js/runtime~main.b2e4b6f5.js"
   },
   {
     "revision": "634131251e7288d840e5c03b54dfeb27",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/frontend/static/media/PittFball.ae0fce0b.jpg"
   },
   {
-    "revision": "641d54c8a15d93b65cc14f8df034e13e",
+    "revision": "a4509931d6069a48787e9c985ae72541",
     "url": "/frontend/index.html"
   }
 ];
