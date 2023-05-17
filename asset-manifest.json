@@ -1,7 +1,7 @@
 {
   "main.css": "/frontend/static/css/main.1bbb6183.chunk.css",
-  "main.js": "/frontend/static/js/main.2c1ee01c.chunk.js",
-  "main.js.map": "/frontend/static/js/main.2c1ee01c.chunk.js.map",
+  "main.js": "/frontend/static/js/main.61a0980f.chunk.js",
+  "main.js.map": "/frontend/static/js/main.61a0980f.chunk.js.map",
   "static/js/1.6fec053d.chunk.js": "/frontend/static/js/1.6fec053d.chunk.js",
   "static/js/1.6fec053d.chunk.js.map": "/frontend/static/js/1.6fec053d.chunk.js.map",
   "static/css/2.ebbc9229.chunk.css": "/frontend/static/css/2.ebbc9229.chunk.css",
@@ -19,9 +19,9 @@
   "static/media/cats.jpg": "/frontend/static/media/cats.581e007b.jpg",
   "static/media/MandyBday.jpg": "/frontend/static/media/MandyBday.330b2a0c.jpg",
   "static/media/PittFball.jpg": "/frontend/static/media/PittFball.ae0fce0b.jpg",
-  "static/css/2.ebbc9229.chunk.css.map": "/frontend/static/css/2.ebbc9229.chunk.css.map",
   "static/css/main.1bbb6183.chunk.css.map": "/frontend/static/css/main.1bbb6183.chunk.css.map",
+  "static/css/2.ebbc9229.chunk.css.map": "/frontend/static/css/2.ebbc9229.chunk.css.map",
   "index.html": "/frontend/index.html",
-  "precache-manifest.2f7baa2a4bd4851e7fa9c7f69e94d242.js": "/frontend/precache-manifest.2f7baa2a4bd4851e7fa9c7f69e94d242.js",
+  "precache-manifest.f94388044b9b6bc90d6e0e7b0cf6bb0b.js": "/frontend/precache-manifest.f94388044b9b6bc90d6e0e7b0cf6bb0b.js",
   "service-worker.js": "/frontend/service-worker.js"
 }
