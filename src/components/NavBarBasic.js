@@ -15,6 +15,8 @@ function NavBarBasic() {
             <Link className="nav-link" to="/">Home</Link>
             <Link className="nav-link" to="/projects">Portfolio</Link>
             <Link className="nav-link" to="/todos">ToDo</Link>
+
+
             <NavDropdown className="ml-auto" title="Contact Me" id="basic-nav-dropdown">
               <NavDropdown.Item href="https://www.linkedin.com/in/ian-snyder-aa1600182/">Linkedin</NavDropdown.Item>
               <NavDropdown.Item href="https://github.com/iansnyder333">
@@ -33,5 +35,13 @@ function NavBarBasic() {
     </Navbar>
   );
 }
-
+/*                             <!-- Uncommited Changes --!>
+            <NavDropdown className="ml-auto" title="Portfolio" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/projects">Task1</NavDropdown.Item> ? Java
+              <NavDropdown.Item href="/projects">Task2</NavDropdown.Item> ? Python
+              <NavDropdown.Item href="/projects">Task3</NavDropdown.Item> ? C++ or Data Engineering
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="/projects">Task 4</NavDropdown.Item> ? Full portfolio
+            </NavDropdown>
+          */
 export default NavBarBasic;

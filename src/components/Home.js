@@ -26,12 +26,20 @@ function Home(){
           <h2>Ian Snyder</h2>
           <h3>Software/Data Engineer</h3>
           <p>
-            Spring 2023 graduate from the University of Pittsburgh with a 
-            Bachelors of Science in Computational Biology and a minor in Applied
-            Statistics. Through my studies I have developed a passion for programming
-            and data analysis. Upon graduating I aspire to become a Software Engineer or a Data Engineer!
+            I am a Spring 2023 graduate from the University of Pittsburgh  where I got a bachelor of science in Computational Biology
+             and a minor in Applied Statistics. Since High School I have developed a passion for natural 
+             sciences but really found my methods of problem solving coincided extremely well with programming.
             
           </p>
+          <p>
+            I decided to study Computational Biology as a means to pursue both but quickly realized I loved developing programs end to end, along with using computers as a means to draw meaningful conclusions from otherwise useless data. The datasets we deal with in bioinformatics are almost always exceptionally large and extremely unreadable without the aid of computers, 
+            specifically, machine learning.
+            I quickly found this out when I was doing research in drug design with UPMC where everything our team did was really centered around machine learning. The need to get good at machine learning helped guide me to a minor in applied statistics which has greatly improved my ability to deal with data analysis and employ machine learning. 
+          </p>
+          <p>
+            With that  being said I think my degree has given me a unique set of skills that I believe is a great fit for many teams. While I still surprisingly enjoyed fields like organic chemistry, I have a passion for software/data engineering and machine learning that makes me extremely excited for a future where I get to do it full time. 
+          </p>
+           
           <Button variant="outline-primary" href={resume} download="IanSnyderResumecopy.pdf">Download My Resume</Button>
         </div>
       </div>
