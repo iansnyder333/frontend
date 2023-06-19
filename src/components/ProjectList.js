@@ -165,6 +165,41 @@ function ProjectsList() {
           </div>
           <div className="col-md-4 mb-4">
             <Card className="project-card h-100">
+              <Card.Header as="h5">NLP News Classifier</Card.Header>
+              <Card.Body>
+                <Card.Text>
+                  <li>Engineered a News Classification NLP Model, featuring a sophisticated Natural Language Processor powered by BERT through the PyTorch framework. </li>
+                  <li>NLP to classify news articles into catagories. Model inputs a news article as raw text and outputs one of the following categories: "business", "entertainment", "sport", "tech", or "politics".</li>
+                  <li>Model was trained with 5 EPOCHS using bbc-text csv file from kaggle. Model has 97% accuracy on testing data but is still in development for accuratley classifying new articles.</li>
+                                  </Card.Text>
+              
+                  <Badge pill bg="danger" className="me-2">
+                    Python
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    PyTorch
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    NLP
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    BERT Classification
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Object Oriented Programming
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Machine Learning
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Neural Networks
+                  </Badge>
+              </Card.Body>
+              <Button variant="outline-primary" href='https://github.com/iansnyder333/ai-game'>Source Code</Button>
+            </Card>
+          </div>
+          <div className="col-md-4 mb-4">
+            <Card className="project-card h-100">
               <Card.Header as="h5">Drug Design Machine Learning Research</Card.Header>
               <Card.Body>
                 <Card.Text>
