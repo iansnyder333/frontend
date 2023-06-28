@@ -165,6 +165,41 @@ function ProjectsList() {
           </div>
           <div className="col-md-4 mb-4">
             <Card className="project-card h-100">
+              <Card.Header as="h5">Image Classification Neural Network Library from Scratch</Card.Header>
+              <Card.Body>
+                <Card.Text>
+                  <li>Designed a Python Library that implements a custom framework for creating neural network models from scratch</li>
+                  <li>Library contains end to end functionality for Neural Network Design, Dataproccessing, Optimization, Evaluation, Training, etc. Along with the ability to save and load pretrained models. </li>
+                  <li>Library contains easy to use pretrained models, such as an neural network that can detect numbers from an image with over 95% accuracy. </li>
+                                  </Card.Text>
+              
+                  <Badge pill bg="danger" className="me-2">
+                    Python
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Linear Algebra
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Image Recognition 
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Image Classification
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Object Oriented Programming
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Machine Learning
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Neural Networks
+                  </Badge>
+              </Card.Body>
+              <Button variant="outline-primary" href='https://github.com/iansnyder333/Image_classification_numPyNN'>Source Code</Button>
+            </Card>
+          </div>
+          <div className="col-md-4 mb-4">
+            <Card className="project-card h-100">
               <Card.Header as="h5">NLP News Classifier</Card.Header>
               <Card.Body>
                 <Card.Text>
