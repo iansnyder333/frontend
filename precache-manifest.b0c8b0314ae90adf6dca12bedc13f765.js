@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "69adb3946c7f17317725",
+    "revision": "4b25088e228b9e36cc39",
     "url": "/frontend/static/css/main.1bbb6183.chunk.css"
   },
   {
-    "revision": "69adb3946c7f17317725",
-    "url": "/frontend/static/js/main.69adb394.chunk.js"
+    "revision": "4b25088e228b9e36cc39",
+    "url": "/frontend/static/js/main.4b25088e.chunk.js"
   },
   {
     "revision": "6fec053d32be9f449c44",
     "url": "/frontend/static/js/1.6fec053d.chunk.js"
   },
   {
-    "revision": "5076aaa877822b8fdd3b",
+    "revision": "ca337754866d180615a3",
     "url": "/frontend/static/css/2.ebbc9229.chunk.css"
   },
   {
-    "revision": "5076aaa877822b8fdd3b",
-    "url": "/frontend/static/js/2.5076aaa8.chunk.js"
+    "revision": "ca337754866d180615a3",
+    "url": "/frontend/static/js/2.ca337754.chunk.js"
   },
   {
     "revision": "b2e4b6f56786ea34a715",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/frontend/static/media/PittFball.ae0fce0b.jpg"
   },
   {
-    "revision": "f59bcb4f6fa040b2a02d2672ea95cbdb",
+    "revision": "22de93ff54f102bc50a8dd6c54b2e54f",
     "url": "/frontend/index.html"
   }
 ];
