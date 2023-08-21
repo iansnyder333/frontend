@@ -14,7 +14,10 @@ function NavBarBasic() {
           <Nav className="container-fluid">
             <Link className="nav-link" to="/">Home</Link>
             <Link className="nav-link" to="/projects">Portfolio</Link>
-            <Link className="nav-link" to="/todos">ToDo</Link>
+            <Link className="nav-link" to="/credentials">Credentials </Link>
+            <Link className="nav-link" to="/todos">To-Do </Link>
+
+            
 
 
             <NavDropdown className="ml-auto" title="Contact Me" id="basic-nav-dropdown">

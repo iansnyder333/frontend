@@ -131,6 +131,54 @@ function ProjectsList() {
           </div>
           <div className="col-md-4 mb-4">
             <Card className="project-card h-100">
+              <Card.Header as="h5">Article Generation and Summarization Web Application</Card.Header>
+              <Card.Body>
+                <Card.Text>
+                  <li>Fine-tuned an 880M parameter Flan-T5 Large model using PEFT with LORA on a T4 GPU, achieving a Rouge-1 score of 50; optimized to run on consumer hardware</li>
+                  <li>Built a GPT model from scratch following OpenAI's GPT-3 specifications ; fine-tuned for generating realistic news articles and headlines</li>
+                  <li>Demonstrated innovative use of PEFT technology to create state-of-the-art NLP solutions without supercomputers</li>
+                  <li>Leveraged Streamlit to design a user-friendly and web-friendly interface , enabling seamless user access and interaction with the models.</li>
+                                  </Card.Text>
+              
+                  <Badge pill bg="danger" className="me-2">
+                    Python
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    HuggingFace
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Flan-T5
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    GPT
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    PyTorch
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    PEFT
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Web Application Interface
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Streamlit
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Transformers
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Fine-Tuning LLM
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    MLOps
+                  </Badge>
+              </Card.Body>
+              <Button variant="outline-primary" href='https://github.com/iansnyder333/FakeNews-GPT_Project'>Source Code</Button>
+            </Card>
+          </div>
+          <div className="col-md-4 mb-4">
+            <Card className="project-card h-100">
               <Card.Header as="h5">Snake Game Intelligent Agent</Card.Header>
               <Card.Body>
                 <Card.Text>

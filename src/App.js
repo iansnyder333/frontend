@@ -7,6 +7,7 @@ import NavBarBasic from './components/NavBarBasic';
 
 import Home from './components/Home';
 import ToDoList from './components/ToDoList';
+import CredentialList from './components/CredentialList';
 import Footer from './components/Footer';
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
           <Route path="/frontend" element={<Home />} />
           <Route path="/projects" element={<ProjectsList />} />
           <Route path="/todos" element={<ToDoList />} />
+          <Route path="/credentials" element={<CredentialList />} />
         </Routes>
         <Footer />
       </main>

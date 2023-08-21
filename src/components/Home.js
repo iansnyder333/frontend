@@ -24,7 +24,7 @@ function Home(){
         </div>
         <div className="about-me-content">
           <h2>Ian Snyder</h2>
-          <h3>Software/Data Engineer</h3>
+          <h4>Problem-focused thinker committed to providing robust autonomous solutions.</h4>
           <p>
             I am a Spring 2023 graduate from the University of Pittsburgh  where I got a bachelor of science in Computational Biology
              and a minor in Applied Statistics. Since High School I have developed a passion for natural 
@@ -35,9 +35,10 @@ function Home(){
             I decided to study Computational Biology as a means to pursue both but quickly realized I loved developing programs end to end, along with using computers as a means to draw meaningful conclusions from otherwise useless data. The datasets we deal with in bioinformatics are almost always exceptionally large and extremely unreadable without the aid of computers, 
             specifically, machine learning.
             I quickly found this out when I was doing research in drug design with UPMC where everything our team did was really centered around machine learning. The need to get good at machine learning helped guide me to a minor in applied statistics which has greatly improved my ability to deal with data analysis and employ machine learning. 
+            Through my studies I found my passion in Deep Learning and the power of neural networks, and have spent the last several months working on projects and earning certifications to expand my understanding beyond my degree.
           </p>
           <p>
-            With that  being said I think my degree has given me a unique set of skills that I believe is a great fit for many teams. While I still surprisingly enjoyed fields like organic chemistry, I have a passion for software/data engineering and machine learning that makes me extremely excited for a future where I get to do it full time. 
+            Following my completion of Stanford University`s three course Machine Learning Specialization, along with DeepLearning AI`s five course Deep Learning Specialization, I believe I am fully equipped to begin helping my clients plan, design, engineer, and test robust autonomous solutions to get ahead and stay ahead of the rapidly developing field.
           </p>
            
           <Button variant="outline-primary" href={resume} download="IanSnyderResumecopy.pdf">Download My Resume</Button>
@@ -55,7 +56,7 @@ function Home(){
                                 both data retrieval and data analysis. I am extremely familiar with using packages such as 
                                 sqllite3 and sqlalchemy to implement queries in Python, along with analyzing large data with Python packages such as 
                                 Pandas, numPy and R packages such as ggplot2. I also have significant exposure to using both machine learning 
-                                and deep learning for data analysis using Scikit-learn, PyTorch, Tensorflow and GNINA.
+                                and deep learning for data analysis using Scikit-learn, PyTorch, Tensorflow and GNINA. 
                                 My minor in Applied Statistics has given me ample knowledge in high level statistics, including 
                                 linear regression, categorical data analysis, nonparametric statistics, and applied sampling. I 
                                 have experience using all of these tools using R, Python, Minitab, and Microsoft Excel.</Card.Text>
