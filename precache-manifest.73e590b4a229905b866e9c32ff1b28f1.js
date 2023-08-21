@@ -1,31 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "4b25088e228b9e36cc39",
-    "url": "/frontend/static/css/main.1bbb6183.chunk.css"
+    "revision": "824448972d9ee5e5d1f1",
+    "url": "/frontend/static/css/main.1bea751a.chunk.css"
   },
   {
-    "revision": "4b25088e228b9e36cc39",
-    "url": "/frontend/static/js/main.4b25088e.chunk.js"
+    "revision": "824448972d9ee5e5d1f1",
+    "url": "/frontend/static/js/main.82444897.chunk.js"
   },
   {
-    "revision": "6fec053d32be9f449c44",
-    "url": "/frontend/static/js/1.6fec053d.chunk.js"
+    "revision": "483a0879fa0e6e687539",
+    "url": "/frontend/static/js/1.483a0879.chunk.js"
   },
   {
-    "revision": "ca337754866d180615a3",
-    "url": "/frontend/static/css/2.ebbc9229.chunk.css"
+    "revision": "d4410474c3e3f8915d77",
+    "url": "/frontend/static/css/2.8330e692.chunk.css"
   },
   {
-    "revision": "ca337754866d180615a3",
-    "url": "/frontend/static/js/2.ca337754.chunk.js"
+    "revision": "d4410474c3e3f8915d77",
+    "url": "/frontend/static/js/2.d4410474.chunk.js"
   },
   {
-    "revision": "b2e4b6f56786ea34a715",
-    "url": "/frontend/static/js/runtime~main.b2e4b6f5.js"
-  },
-  {
-    "revision": "634131251e7288d840e5c03b54dfeb27",
-    "url": "/frontend/static/media/IanSnyderResumecopy.63413125.pdf"
+    "revision": "42b3560e13d24200ef8f",
+    "url": "/frontend/static/js/runtime~main.42b3560e.js"
   },
   {
     "revision": "2a2a007ea4ec5295327d2937a6affced",
@@ -38,6 +34,10 @@ self.__precacheManifest = [
   {
     "revision": "f11753873b1b8b136aee8bb60f58133a",
     "url": "/frontend/static/media/landscape.f1175387.jpg"
+  },
+  {
+    "revision": "0bfb3b91ab09e2c5343f7ee8e006b048",
+    "url": "/frontend/static/media/IanSnyderResumecopy.0bfb3b91.pdf"
   },
   {
     "revision": "22878c643f0e7631b453aa45fcab6f02",
@@ -64,7 +64,15 @@ self.__precacheManifest = [
     "url": "/frontend/static/media/PittFball.ae0fce0b.jpg"
   },
   {
-    "revision": "22de93ff54f102bc50a8dd6c54b2e54f",
+    "revision": "de37ce28192ea070ed166e422ac2512a",
+    "url": "/frontend/static/media/MLC.de37ce28.png"
+  },
+  {
+    "revision": "75b944435400e661a3d0cc48709f1abb",
+    "url": "/frontend/static/media/DLC.75b94443.png"
+  },
+  {
+    "revision": "9248453bbb8de25e3a3f0cf1eecfe945",
     "url": "/frontend/index.html"
   }
 ];
