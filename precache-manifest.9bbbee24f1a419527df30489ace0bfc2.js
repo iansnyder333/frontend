@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "824448972d9ee5e5d1f1",
+    "revision": "2132470a13ef1e14a0d8",
     "url": "/frontend/static/css/main.1bea751a.chunk.css"
   },
   {
-    "revision": "824448972d9ee5e5d1f1",
-    "url": "/frontend/static/js/main.82444897.chunk.js"
+    "revision": "2132470a13ef1e14a0d8",
+    "url": "/frontend/static/js/main.2132470a.chunk.js"
   },
   {
     "revision": "483a0879fa0e6e687539",
     "url": "/frontend/static/js/1.483a0879.chunk.js"
   },
   {
-    "revision": "d4410474c3e3f8915d77",
+    "revision": "6f3f5901467876d204e9",
     "url": "/frontend/static/css/2.8330e692.chunk.css"
   },
   {
-    "revision": "d4410474c3e3f8915d77",
-    "url": "/frontend/static/js/2.d4410474.chunk.js"
+    "revision": "6f3f5901467876d204e9",
+    "url": "/frontend/static/js/2.6f3f5901.chunk.js"
   },
   {
     "revision": "42b3560e13d24200ef8f",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/frontend/static/media/DLC.75b94443.png"
   },
   {
-    "revision": "9248453bbb8de25e3a3f0cf1eecfe945",
+    "revision": "093b18e2545d2ad86348431e247d807e",
     "url": "/frontend/index.html"
   }
 ];
