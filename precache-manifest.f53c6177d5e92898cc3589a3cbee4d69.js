@@ -1,27 +1,31 @@
 self.__precacheManifest = [
   {
-    "revision": "2132470a13ef1e14a0d8",
-    "url": "/frontend/static/css/main.1bea751a.chunk.css"
+    "revision": "8d645a29a7ca86e34900",
+    "url": "/frontend/static/css/main.4447c5b6.chunk.css"
   },
   {
-    "revision": "2132470a13ef1e14a0d8",
-    "url": "/frontend/static/js/main.2132470a.chunk.js"
+    "revision": "8d645a29a7ca86e34900",
+    "url": "/frontend/static/js/main.8d645a29.chunk.js"
   },
   {
-    "revision": "483a0879fa0e6e687539",
-    "url": "/frontend/static/js/1.483a0879.chunk.js"
+    "revision": "31d6f8c7007864882026",
+    "url": "/frontend/static/js/1.31d6f8c7.chunk.js"
   },
   {
-    "revision": "6f3f5901467876d204e9",
-    "url": "/frontend/static/css/2.8330e692.chunk.css"
+    "revision": "086ec1a2da444b038147",
+    "url": "/frontend/static/css/2.3e3f3940.chunk.css"
   },
   {
-    "revision": "6f3f5901467876d204e9",
-    "url": "/frontend/static/js/2.6f3f5901.chunk.js"
+    "revision": "086ec1a2da444b038147",
+    "url": "/frontend/static/js/2.086ec1a2.chunk.js"
   },
   {
-    "revision": "42b3560e13d24200ef8f",
-    "url": "/frontend/static/js/runtime~main.42b3560e.js"
+    "revision": "5798065ce523522319a4",
+    "url": "/frontend/static/js/runtime~main.5798065c.js"
+  },
+  {
+    "revision": "0bfb3b91ab09e2c5343f7ee8e006b048",
+    "url": "/frontend/static/media/IanSnyderResumecopy.0bfb3b91.pdf"
   },
   {
     "revision": "2a2a007ea4ec5295327d2937a6affced",
@@ -34,10 +38,6 @@ self.__precacheManifest = [
   {
     "revision": "f11753873b1b8b136aee8bb60f58133a",
     "url": "/frontend/static/media/landscape.f1175387.jpg"
-  },
-  {
-    "revision": "0bfb3b91ab09e2c5343f7ee8e006b048",
-    "url": "/frontend/static/media/IanSnyderResumecopy.0bfb3b91.pdf"
   },
   {
     "revision": "22878c643f0e7631b453aa45fcab6f02",
@@ -72,7 +72,11 @@ self.__precacheManifest = [
     "url": "/frontend/static/media/DLC.75b94443.png"
   },
   {
-    "revision": "093b18e2545d2ad86348431e247d807e",
+    "revision": "d5c1876c82b8a5197348b9ee42afdcc4",
+    "url": "/frontend/static/media/Diploma.d5c1876c.png"
+  },
+  {
+    "revision": "fac95a17248533bd73bab5cb8d0a9348",
     "url": "/frontend/index.html"
   }
 ];
