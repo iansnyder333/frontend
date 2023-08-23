@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Card from "react-bootstrap/Card";
 import "./ProjectList.css";
 import Button from 'react-bootstrap/Button';
@@ -7,8 +7,26 @@ import Button from 'react-bootstrap/Button';
 function CredentialList(){
     const MLC = require('./static/MLC.png');
     const DLC = require('./static/DLC.png');
+    const Diploma = require('./static/Diploma.png');
     return(
         <div className="container">
+            <div>
+        <h3 className="text-black text-uppercase my-4">Education</h3>
+        <div className="row">
+            
+                <Card className="project-card h-100">
+                    <Card.Img variant="top" src={Diploma} />
+                
+
+              <Card.Body>
+                        <Card.Title>Bachelor of Science, Computational Biology, University of Pittsburgh, April 2023</Card.Title>
+
+                
+              </Card.Body>
+
+            </Card>
+            </div>
+            </div>
             <div>
         <h3 className="text-black text-uppercase my-4">Certifications</h3>
         <div className="row">
