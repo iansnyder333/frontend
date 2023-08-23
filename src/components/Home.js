@@ -4,6 +4,8 @@ import Card from "react-bootstrap/Card";
 import Carousel from 'react-bootstrap/Carousel';
 import resume from "./Files/IanSnyderResumecopy.pdf";
 import Button from 'react-bootstrap/Button';
+import Badge from 'react-bootstrap/Badge';
+
 function Home(){
     const headshot = require('./static/Snyder_Ian-42431CC.jpg'); 
     const family = require('./static/IMG_4828.jpeg');
@@ -13,6 +15,7 @@ function Home(){
     const cats = require('./static/cats.jpg');
     const Bday = require('./static/MandyBday.jpg');
     const Fball = require('./static/PittFball.jpg');
+    
 
 
     return(
@@ -45,55 +48,178 @@ function Home(){
         </div>
       </div>
       <div>
-        <h3 className="text-black text-uppercase my-4">Technical Skills</h3>
+        <h3 className="text-black text-uppercase my-4">Technical Competencies</h3>
         <div className="row">
             <div className="col-md-4 mb-4">
             <Card className="project-card h-100">
                 <Card.Img variant="top" src={dataA} />
-              <Card.Header as="h5">Data Analysis</Card.Header>
+              <Card.Header as="h5">Database/Cloud</Card.Header>
               <Card.Body>
-                <Card.Text>I have extensive experience in working with Graph databases like Neo4j with cypher, along with relational databases such as SQL for 
-                                both data retrieval and data analysis. I am extremely familiar with using packages such as 
-                                sqllite3 and sqlalchemy to implement queries in Python, along with analyzing large data with Python packages such as 
-                                Pandas, numPy and R packages such as ggplot2. I also have significant exposure to using both machine learning 
-                                and deep learning for data analysis using Scikit-learn, PyTorch, Tensorflow and GNINA. 
-                                My minor in Applied Statistics has given me ample knowledge in high level statistics, including 
-                                linear regression, categorical data analysis, nonparametric statistics, and applied sampling. I 
-                                have experience using all of these tools using R, Python, Minitab, and Microsoft Excel.</Card.Text>
+                <Card.Text>
+                  <Button variant="info" type='null'>
+                  Relational Databases <Badge bg="secondary">2 Years</Badge>
+                </Button>{' '}
+                  <ul>
+                    <li>SQL</li>
+                    <li>MySQL</li>
+                    <li>SQLite</li>
+                  </ul>
+                  <Button variant="info" type='null'>
+                  Graph Databases <Badge bg="secondary">2 Years</Badge>
+                </Button>{' '}
+                  <ul>
+                    <li>Neo4j</li>
+                    <li>Cypher</li>
+                  </ul>
+                  <Button variant="info" type='null'>
+                  AWS <Badge bg="secondary">2 Years</Badge>
+                </Button>{' '}
+                  <ul>
+                    <li>EC2</li>
+                    <li>Elastic Beanstalk</li>
+                    <li>Accidental $50,000 charges</li>
+                  </ul>
+                  <Button variant="primary" type='null'>
+                  Python <Badge bg="secondary">6 Years</Badge>
+                </Button>{' '}
+                  <ul>
+                    <li>sqllite3</li>
+                    <li>sqlalchemy</li>
+                    <li>Pandas</li>
+                    <li>NumPy</li>
+                    <li>Matplotlib</li>
+                    <li>Scikit-learn</li>
+                    <li>Transformers</li>
+                  </ul>
+                  <Button variant="success" type='null'>
+                  R <Badge bg="secondary">3 Years</Badge>
+                </Button>{' '}
+                  <ul>
+                    <li>R-studio</li>
+                    <li>Cran</li>
+                    <li>sqldf</li>
+                    <li>ggplot2</li>
+                  </ul>
+                  </Card.Text>
               </Card.Body>
             </Card>
           </div>
           <div className="col-md-4 mb-4">
             <Card className="project-card h-100">
                 <Card.Img variant="top" src={softA} />
-              <Card.Header as="h5">Software Development</Card.Header>
+              <Card.Header as="h5">Programming skills</Card.Header>
               <Card.Body>
-                <Card.Text>My University studies have given me extensive exposure to the end to end software development process.
-                   Many of my assigned projects were open ended, requiring me to analyze and determine the correct architecture for
-                    development. I can then confidently program a solution using Python, Java, C++, or Javascript depending on the nature
-                     of the problem. Since Java was the first language I learned, I naturally solve problems in an object-oriented
-                      environment, and understand the importance of developing scalable and reusable code. In my high level CS course
-                       projects, it was very often for no test cases or files to be provided, which required me to learn how to develop
-                        adequate testing before deploying my programs. Many of these projects are available in the portfolio section 
-                        of my website, which I am consistently updating as I continue progressing as a software developer! 
-                                </Card.Text>
+                <Card.Text>
+                  <Button variant="primary" type='null'>
+                  Python <Badge bg="secondary">6 Years</Badge>
+                </Button>{' '}
+                  <ul>
+                    <li>Data Science</li>
+                    <li>Data Analysis</li>
+                    <li>Machine Learning</li>
+                    <li>Deep Learning</li>
+                    <li>Web Development</li>
+                  </ul>
+                  <Button variant="primary" type='null'>
+                  Java <Badge bg="secondary">4 Years</Badge>
+                </Button>{' '}
+                  <ul>
+                    <li>Object Oriented Programming</li>
+                    <li>Algorithm Development</li>
+                    <li>Data Structures</li>
+                  </ul>
+                  <Button variant="success" type='null'>
+                  R <Badge bg="secondary">3 Years</Badge>
+                </Button>{' '}
+                  <ul>
+                    <li>Statistical Analysis</li>
+                    <li>Unstructured Data</li>
+                    <li>Data Visualization</li>
+                  </ul>
+                  <Button variant="success" type='null'>
+                  Shell Scripting <Badge bg="secondary">3 Years</Badge>
+                </Button>{' '}
+                  <ul> 
+                    <li>Unix Environment</li>
+                    <li>Bash</li>
+          
+                  </ul>
+                  
+                  <Button variant="warning" type='null'>
+                  C++ <Badge bg="secondary">1 Year</Badge>
+                </Button>{' '}
+                  <ul>
+                    <li>Object Oriented Programming</li>
+                    <li>Game Development</li>
+                    
+                  </ul>
+                  
+                  <Button variant="warning" type='null'>
+                  JavaScript <Badge bg="secondary">1 Year</Badge>
+                </Button>{' '}
+                  <ul>
+                    <li>Web Development</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                  </ul>
+                  
+                  
+                  
+                  
+                </Card.Text>
               </Card.Body>
             </Card>
           </div>
           <div className="col-md-4 mb-4">
             <Card className="project-card h-100">
                 <Card.Img variant="top" src={otherA} />
-              <Card.Header as="h5">Other Developer Tools</Card.Header>
+              <Card.Header as="h5">Technologies</Card.Header>
               <Card.Body>
-                <Card.Text>Throughout my studies, I have learned many different tools and frameworks to improve upon my skills.
-                   I have always developed in a Unix environment, and have experience with shell scripting using Bash.
-                    I use tools such as Git, Jupyter Notebooks, and VScode to aid in my deployment and collaboration.
-                     As someone who was always interested in web development, I have taken it upon myself to learn Django 
-                     for backend development, and React front end. I have learned to implement both together using Restful
-                      apis to create scalable and high performance websites such as this one. I have also used AWS and Docker 
-                      to help me develop and deploy applications in an efficient and highly controllable manner. I greatly enjoy 
-                      styling websites using Javascript, HTML, CSS, and bootstrap libraries to create visually appealing web pages 
-                      and am constantly keeping up to date with new technologies to learn that can help me as a developer.</Card.Text>
+                <Card.Text>
+                  <Button variant="primary" type='null'>
+                  Machine Learning <Badge bg="secondary">5 Years</Badge>
+                </Button>{' '}
+                  <ul>
+                    <li>Pytorch</li>
+                    <li>Tensorflow</li>
+                    <li>Scikit-learn</li>
+                    <li>Transformers</li>
+                    <li>Accelerate</li>
+                    <li>Huggingface</li>
+                    <li>PEFT</li>
+                    <li>PySpark</li>
+                  </ul>
+                  <Button variant="primary" type='null'>
+                  Web Development <Badge bg="secondary">4 Years</Badge>
+                </Button>{' '}
+                  <ul>
+                    <li>Django</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>RESTful</li>
+                    <li>Bootstrap</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                  </ul>
+                  <Button variant="danger" type='null'>
+                  Enviroments <Badge bg="secondary">4 Years</Badge>
+                </Button>{' '}
+                  <ul>
+                    <li>VSCode</li>
+                    <li>Jupyter Notebooks</li>
+                    <li>Google Collab</li>
+                    <li>Keras</li>
+                    <li>Huggingface</li>
+                  </ul>
+                  <Button variant="danger" type='null'>
+                  Version Control <Badge bg="secondary">4 Years</Badge>
+                </Button>{' '}
+                  <ul>
+                    <li>Git</li>
+                    <li>Gitkraken</li>
+                    <li>Gitlens</li>
+                  </ul>
+                </Card.Text>
               </Card.Body>
             </Card>
           </div>
@@ -133,7 +259,7 @@ function Home(){
         <img
           className="d-block w-100 carousel-image"
           src={family}
-          alt="Third slide"
+          alt="Fourth slide"
         />
 
         
