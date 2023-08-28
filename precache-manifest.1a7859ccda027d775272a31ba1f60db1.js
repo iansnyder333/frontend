@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "8d645a29a7ca86e34900",
-    "url": "/frontend/static/css/main.4447c5b6.chunk.css"
+    "revision": "3726455066ddd97b679a",
+    "url": "/frontend/static/css/main.0b21673d.chunk.css"
   },
   {
-    "revision": "8d645a29a7ca86e34900",
-    "url": "/frontend/static/js/main.8d645a29.chunk.js"
+    "revision": "3726455066ddd97b679a",
+    "url": "/frontend/static/js/main.37264550.chunk.js"
   },
   {
     "revision": "31d6f8c7007864882026",
     "url": "/frontend/static/js/1.31d6f8c7.chunk.js"
   },
   {
-    "revision": "086ec1a2da444b038147",
-    "url": "/frontend/static/css/2.3e3f3940.chunk.css"
+    "revision": "0ed0b172d7739996e0d8",
+    "url": "/frontend/static/css/2.9ebcf424.chunk.css"
   },
   {
-    "revision": "086ec1a2da444b038147",
-    "url": "/frontend/static/js/2.086ec1a2.chunk.js"
+    "revision": "0ed0b172d7739996e0d8",
+    "url": "/frontend/static/js/2.0ed0b172.chunk.js"
   },
   {
     "revision": "5798065ce523522319a4",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/frontend/static/media/Diploma.d5c1876c.png"
   },
   {
-    "revision": "fac95a17248533bd73bab5cb8d0a9348",
+    "revision": "b48e4021598080b9c0892882bbb5b6ce",
     "url": "/frontend/index.html"
   }
 ];
