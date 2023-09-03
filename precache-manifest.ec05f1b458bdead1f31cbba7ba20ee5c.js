@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3726455066ddd97b679a",
+    "revision": "698c08c20c11f6d4c565",
     "url": "/frontend/static/css/main.0b21673d.chunk.css"
   },
   {
-    "revision": "3726455066ddd97b679a",
-    "url": "/frontend/static/js/main.37264550.chunk.js"
+    "revision": "698c08c20c11f6d4c565",
+    "url": "/frontend/static/js/main.698c08c2.chunk.js"
   },
   {
     "revision": "31d6f8c7007864882026",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/frontend/static/media/Diploma.d5c1876c.png"
   },
   {
-    "revision": "b48e4021598080b9c0892882bbb5b6ce",
+    "revision": "3374ec519ba27975fb0b0b0e8510f36a",
     "url": "/frontend/index.html"
   }
 ];
