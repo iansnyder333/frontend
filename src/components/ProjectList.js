@@ -131,6 +131,54 @@ function ProjectsList() {
           </div>
           <div className="col-md-4 mb-4">
             <Card className="project-card h-100">
+              <Card.Header as="h5">ScholarlyRecommender Cloud App and Newsletter</Card.Header>
+              <Card.Body>
+                <Card.Text>
+                  <li>Developed ScholarlyRecommender, an End2End automated system that curates personalized feeds of the latest academic publications. Built on a scalable architecture, the system is designed to evolve into a self-improving newsletter service, maximizing user engagement</li>
+                  <li>Utilized cutting-edge ranking algorithms based on normalized compression distance and inverse weighted top-k mean rating to ensure highly relevant paper recommendations with limited labeled data</li>
+                  <li>Implemented an intuitive, user-centric, Streamlit cloud deployed web interface that abstracts algorithmic complexity, offering users an accessible platform for customization without any download or code</li>
+                  <li>Established a comprehensive roadmap for future enhancements, fostering an open-source community by providing clear guidelines for contributions, creating a collaborative development environment distributed under Apache License 2.0</li>
+                                  </Card.Text>
+              
+                  <Badge pill bg="danger" className="me-2">
+                    Python
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Streamlit
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Pandas
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Cloud Deployment
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    NumPY
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Regex
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Web Application Interface
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Web Scraping
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    Rec Sys
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    DevOps
+                  </Badge>
+                  <Badge pill bg="info" className="me-2">
+                    End2End Pipelines
+                  </Badge>
+              </Card.Body>
+              <Button variant="outline-primary" href='https://scholarlyrecommender.streamlit.app/'>Try it out</Button>
+            </Card>
+          </div>
+          <div className="col-md-4 mb-4">
+            <Card className="project-card h-100">
               <Card.Header as="h5">Article Generation and Summarization Web Application</Card.Header>
               <Card.Body>
                 <Card.Text>
