@@ -27,21 +27,19 @@ function Home(){
         </div>
         <div className="about-me-content">
           <h2>Ian Snyder</h2>
-          <h4>Problem-focused thinker committed to providing robust autonomous solutions.</h4>
+          <h4>Versatile Machine Learning Engineer committed to providing robust autonomous solutions.</h4>
           <p>
-            I am a Spring 2023 graduate from the University of Pittsburgh  where I got a bachelor of science in Computational Biology
-             and a minor in Applied Statistics. Since High School I have developed a passion for natural 
-             sciences but really found my methods of problem solving coincided extremely well with programming.
+            Blending my passions for natural science and computer science growing up, I found my calling in the field of Computational Biology. As a Spring 2023 graduate from the University of Pittsburgh, I specialized in this field, with a minor in Applied Statistics.
             
           </p>
           <p>
-            I decided to study Computational Biology as a means to pursue both but quickly realized I loved developing programs end to end, along with using computers as a means to draw meaningful conclusions from otherwise useless data. The datasets we deal with in bioinformatics are almost always exceptionally large and extremely unreadable without the aid of computers, 
-            specifically, machine learning.
-            I quickly found this out when I was doing research in drug design with UPMC where everything our team did was really centered around machine learning. The need to get good at machine learning helped guide me to a minor in applied statistics which has greatly improved my ability to deal with data analysis and employ machine learning. 
-            Through my studies I found my passion in Deep Learning and the power of neural networks, and have spent the last several months working on projects and earning certifications to expand my understanding beyond my degree.
+            My undergraduate studies led me to discover how machine learning, especially neural networks, dominates modern bioinformatics. Traditional methods often falter when dealing with the complex and vast datasets in this field.
+            During undergraduate research in drug design with UPMC, I quickly realized how investing in deep learning can save hundreds of millions in downstream costs. This eye-opening experience along with my ability to be a key contributor in meaningful research projects shaped and sparked my genuine passion for data science and deep learning, and motivated my minor in applied statistics.
           </p>
           <p>
-            Following my completion of Stanford University`s three course Machine Learning Specialization, along with DeepLearning AI`s five course Deep Learning Specialization, I believe I am fully equipped to begin helping my clients plan, design, engineer, and test robust autonomous solutions to get ahead and stay ahead of the rapidly developing field.
+             Post-graduation, I've expanded my understanding through Stanford University's Machine Learning Specialization and DeepLearning AI's Deep Learning Specialization. While still considering higher degrees, I am fully equipped and thrilled to start my career.
+            I'm now eager to take the next step, joining a team that shares my vision for leveraging data to drive innovative solutions. With my unique blend of scientific curiosity and technical expertise, I look forward to providing robust, autonomous, and data-driven contributions to real-world challenges.
+
           </p>
            
           <Button variant="outline-primary" href={resume} download="IanSnyderResumecopy.pdf">Download My Resume</Button>
