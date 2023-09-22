@@ -1,5 +1,6 @@
 
-# Getting Started with Create React App
+# My Personal Website and Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-my personal website and portfolio hosted with github pages!
+The source code for the frontend of my personal website, showcasing my passions, portfolio, and credentials. The backend for this website was build using Django RESTful API, originally hosted on AWS Elastic Beanstalk, with the frontend being build using React and Reactstrap. The website is now currently hosted on github pages and is no longer relient on the Django backend due to the cost of AWS. 
+
+Check out the my website: [https://iansnyder333.github.io/frontend](https://iansnyder333.github.io/frontend)
