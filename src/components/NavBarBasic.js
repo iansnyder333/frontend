@@ -21,7 +21,7 @@ function NavBarBasic() {
 
 
             <NavDropdown className="ml-auto" title="Contact Me" id="basic-nav-dropdown">
-              <NavDropdown.Item href="https://www.linkedin.com/in/ian-snyder-aa1600182/">Linkedin</NavDropdown.Item>
+              <NavDropdown.Item href="https://www.linkedin.com/in/iandsnyder">Linkedin</NavDropdown.Item>
               <NavDropdown.Item href="https://github.com/iansnyder333">
                 Github
               </NavDropdown.Item>
